@@ -1,3 +1,4 @@
+// bài 1
 function isPrime(n) {
     if (n < 2) return false;
 
@@ -8,6 +9,7 @@ function isPrime(n) {
     return true;
 }
 
+// bài 2
 function sumOdd(n) {
     let sum = 0;
     for (let i = 1; i <= n; i += 2) {
@@ -16,6 +18,7 @@ function sumOdd(n) {
     return sum;
 }
 
+// bài 3
 function processArray(numbers) {
     const evenNumbers = numbers.filter((num) => num % 2 === 0);
     const maxNumber = Math.max(...numbers);
